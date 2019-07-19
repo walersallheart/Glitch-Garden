@@ -583,7 +583,7 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 1.2083334
-    functionName: 
+    functionName: Fire
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
