@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4791198177466838}
   - component: {fileID: 95427626298435240}
+  - component: {fileID: 114461888196418650}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -66,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1584845630172108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.96, y: 2.581, z: 0}
+  m_LocalPosition: {x: 0, y: 0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4791198177466838}
@@ -79,7 +80,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1842393745118690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.96, y: 2.073, z: 0}
+  m_LocalPosition: {x: 0, y: -0.37800026, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4791198177466838}
@@ -92,7 +93,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1440411393473334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.01, y: 2.67, z: 0}
+  m_LocalPosition: {x: 1.9817116, y: 2.2411602, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4015077667230498}
@@ -118,6 +119,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114461888196418650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440411393473334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7918f9b06f8b446aeb1a5525b53e3346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starCost: 100
 --- !u!212 &212008798642717736
 SpriteRenderer:
   m_ObjectHideFlags: 1
