@@ -20,6 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4138425555669174}
   - component: {fileID: 114852073565144276}
+  - component: {fileID: 114792219797367922}
+  - component: {fileID: 95524518101074344}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -50,9 +52,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4311579653392958}
-  - component: {fileID: 95630081753557690}
   - component: {fileID: 212568353756577826}
-  - component: {fileID: 114005464167456880}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1251088997799586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4311579653392958}
@@ -101,13 +101,13 @@ Transform:
   m_Father: {fileID: 4311579653392958}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95630081753557690
+--- !u!95 &95524518101074344
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1915921499323960}
+  m_GameObject: {fileID: 1251088997799586}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0caeaf551342f48c69aaf4ca64c2c70f, type: 2}
@@ -119,12 +119,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114005464167456880
+--- !u!114 &114792219797367922
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1915921499323960}
+  m_GameObject: {fileID: 1251088997799586}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a092e34002ae4b2cacba33d2f0134fd, type: 3}
