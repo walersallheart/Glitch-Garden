@@ -8,15 +8,18 @@ public class Shooter : MonoBehaviour {
 
 	AttackerSpawner myLaneSpawner;
 
+	Animator animator;
+
 	private void Start() {
+		animator = GetComponent<Animator>();
 		SetLaneSpawner();
 	}
 
 	private void Update() {
 		if (IsAttackerInLane()){
-			Debug.Log("Shoot pew pew");
+			animator.SetBool("IsAttacking",true);
 		} else {
-			Debug.Log("Sit and Wait");
+			animator.SetBool("IsAttacking",false);
 		}
 	}
 
