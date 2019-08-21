@@ -387,48 +387,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73158e1e281694287b8e4851ed87ca3c, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &417568770
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472791704907814, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2f05c66337ad94932b7a9e48cfa86139, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!4 &437745429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4079505770927842, guid: 8749b88537af64a6eb08eb12ca428b5b,
