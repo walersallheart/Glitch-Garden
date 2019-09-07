@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114125025757840788}
   - component: {fileID: 95140548224585730}
   - component: {fileID: 212191647995198536}
+  - component: {fileID: 114932628042085048}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -55,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1569175313390068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.395, y: 3.103, z: 0}
+  m_LocalPosition: {x: 8.01, y: 3.2658377, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4788694432183136}
@@ -104,7 +105,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.05074179, y: 0.011746168}
@@ -160,6 +161,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91582afa5b5624cf397f28e67ebd0f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114932628042085048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569175313390068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6bfbc72d4cb4d0483e46358dacd50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212191647995198536
