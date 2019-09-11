@@ -8,6 +8,14 @@ public class Attacker : MonoBehaviour {
 
 	GameObject currentTarget;
 
+	private void Awake() {
+		FindObjectOfType<LevelController>().AttackerSpawned();
+	}
+
+	private void OnDestroy() {
+		FindObjectOfType<LevelController>().AttackerKilled();
+	}
+
 	public void SetMovementSpeed(float speed){
 		currentSpeed = speed;
 	}
