@@ -113,54 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &436742523
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770085533941806, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a8d4c29afea274b3080138e9f2d87ef3, type: 2}
-  m_IsPrefabAsset: 0
---- !u!114 &436742524 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114512666506359362, guid: a8d4c29afea274b3080138e9f2d87ef3,
-    type: 2}
-  m_PrefabInternal: {fileID: 436742523}
-  m_Script: {fileID: 11500000, guid: 3858090f3834e42358fb53444667649f, type: 3}
 --- !u!1 &590034452
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +187,7 @@ GameObject:
   - component: {fileID: 791791336}
   - component: {fileID: 791791338}
   m_Layer: 5
-  m_Name: Loading Text
+  m_Name: Quit Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,7 +290,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 436742524}
+      - m_Target: {fileID: 998239184}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -351,6 +303,54 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &998239183
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729864940382602, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &998239184 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114239348093257366, guid: 7ed70dc8b92a74e5b84f73f6bd74b62d,
+    type: 2}
+  m_PrefabInternal: {fileID: 998239183}
+  m_Script: {fileID: 11500000, guid: 3858090f3834e42358fb53444667649f, type: 3}
 --- !u!1 &1069262113
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 1069262115}
   - component: {fileID: 1069262117}
   m_Layer: 5
-  m_Name: Garden Text
+  m_Name: Start Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 436742524}
+      - m_Target: {fileID: 998239184}
         m_MethodName: LoadNextScene
         m_Mode: 1
         m_Arguments:
