@@ -23,7 +23,7 @@ public class LivesDisplay : MonoBehaviour {
 		UpdateDisplay();
 
 		if (lives <= 0){
-			FindObjectOfType<LevelLoad>().LoadYouLose();
+			FindObjectOfType<LevelLoader>().LoadYouLose();
 		}
 	}
 }
